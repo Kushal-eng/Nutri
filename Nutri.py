@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 # Load dataset
 def load_data():
-    csv_path = "CSV_VERSION.csv"  # Update with actual path
+    csv_path = "Nutri.csv"  # Update with actual path
     df = pd.read_csv(csv_path, delimiter=";")
     for col in df.columns[2:]:
         df[col] = df[col].astype(str).str.replace(',', '.').astype(float, errors='ignore')
