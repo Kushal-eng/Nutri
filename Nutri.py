@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+git add requirements.txt  
+git commit -m "Fix: Add matplotlib to requirements.txt"  
+git push origin main  # Use your actual branch name if different
 
 # Load dataset
 def load_data():
